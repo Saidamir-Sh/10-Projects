@@ -1,0 +1,32 @@
+.about-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.about {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;    
+    padding: 3em;
+}
+.about__text {
+    width: 50%;
+    margin: 0 auto; 
+    text-align: justify;
+    h2 {
+        font-size: 2rem;
+        color: #383838e8;
+    }
+    p {
+        color: #7c7e85;
+    }
+}
+.about__img {
+    width: 40%;
+    margin: 0 auto;
+    img {
+        width: 100%;
+    }
+}
